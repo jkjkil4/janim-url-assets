@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "janim-iconify"
+name = "janim-url-assets"
 readme = "README.md"
 dynamic = ["version", "description"]
 license = {file = "LICENSE"}
@@ -21,7 +21,7 @@ dev = [
 ]
 
 [project.entry-points."janim.plugins"]
-janim-iconify = "janim_iconify.plugin"
+janim-url-assets = "janim_url_assets.plugin"
 
 [tool.pyright]
 venvPath = "."
