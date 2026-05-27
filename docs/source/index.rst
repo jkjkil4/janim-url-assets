@@ -4,13 +4,9 @@
    contain the root `toctree` directive.
 
 janim-url-assets 文档
-==============================
+==========================
 
-janim-utl-assets 是一个用于从远程 URL 加载资源的 JAnim 插件，提供了 :class:`~.UrlSVGItem` 和 :class:`~.UrlImageItem` 等封装
-
-.. note::
-
-   文档有待完善
+``janim-url-assets`` 是一个用于直接从 URL 加载线上素材的 JAnim 插件。
 
 .. toctree::
     :maxdepth: 2
