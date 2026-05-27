@@ -31,6 +31,9 @@
               (pkgs.writeShellScriptBin "janim" ''
                 exec uv run janim "$@"
               '')
+              (pkgs.writeShellScriptBin "sphinx-build" ''
+                exec uv run sphinx-build "$@"
+              '')
             ] ++ extraPackages;
 
             env = {

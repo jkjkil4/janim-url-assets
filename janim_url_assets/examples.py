@@ -20,3 +20,4 @@ class IconifyExample(Timeline):
             for name in adobe_icon_names
         ).show()
         adobe_icons.points.arrange()
+        UrlSVGItem('https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/ibm.svg').show()
