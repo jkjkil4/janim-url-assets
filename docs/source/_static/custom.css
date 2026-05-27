@@ -1,0 +1,48 @@
+p {
+    font-size: initial;
+}
+
+.caption-text {
+  text-transform: none;
+}
+
+.mj-comparison-table p {
+    font-size: 0.5em;
+}
+
+span.caption-text {
+    font-size: larger;
+}
+
+div.toctree-wrapper.compound span.caption-text {
+    font-size: x-large;
+}
+
+.reference.internal.image-reference img {
+    object-fit: scale-down;
+}
+
+/* .highlight pre {
+    font-size: initial;
+} */
+
+.highlight-python.notranslate {
+    margin-top: 0em;
+}
+
+.highlight {
+    font-size: large;
+}
+
+.page-faq h2 {
+    font-size: 1.5em;
+}
+
+.page-insert_assets h2 {
+    font-size: 1.65em;
+}
+
+.detail-box {
+    border: 1px solid #a0b3bf;
+    padding: 1rem;
+}

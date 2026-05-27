@@ -1,3 +1,9 @@
+"""
+该文件中包含了一些辅助函数
+
+其中最主要的是 :py:func:`download` 用于下载 URL 内容
+"""
+
 import hashlib
 import os
 import sys

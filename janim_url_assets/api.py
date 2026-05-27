@@ -1,3 +1,7 @@
+"""
+该文件中提供了开箱即用的，线上素材站资源的封装
+"""
+
 from janim_url_assets.items import UrlSVGItem
 
 

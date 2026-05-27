@@ -1,3 +1,9 @@
+"""
+该文件是该包的核心部分
+
+其中定义了若干 JAnim 原有的物件可传入 URL 路径的版本
+"""
+
 from janim.items.image_item import ImageItem
 from janim.items.svg.svg_item import SVGItem
 
