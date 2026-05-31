@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 1980, jkjkil4
+# This file is distributed under the same license as the janim-url-assets
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: janim-url-assets \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/index.rst:63
+msgid "参考文档"
+msgstr "References"
+
+#: ../../source/index.rst:7
+msgid "janim-url-assets 文档"
+msgstr "janim-url-assets Documentation"
+
+#: ../../source/index.rst:9
+msgid "``janim-url-assets`` 是一个用于直接从 URL 加载线上素材的 JAnim 插件。"
+msgstr ""
+"``janim-url-assets`` is a JAnim plugin for loading remote assets directly"
+" from URLs."
+
+#: ../../source/index.rst:11
+msgid "主要提供了如下的物件："
+msgstr "The main provided items are:"
+
+#: ../../source/index.rst:13
+msgid ":class:`~.UrlSVGItem` : 从 URL 加载 SVG，并按普通 ``SVGItem`` 使用"
+msgstr ":class:`~.UrlSVGItem`: load an SVG from a URL and use it as a normal ``SVGItem``"
+
+#: ../../source/index.rst:15
+msgid ":class:`~.UrlImageItem` : 从 URL 加载图片，并按普通 ``ImageItem`` 使用"
+msgstr ":class:`~.UrlImageItem`: load an image from a URL and use it as a normal ``ImageItem``"
+
+#: ../../source/index.rst:18
+msgid "安装"
+msgstr "Installation"
+
+#: ../../source/index.rst:24
+msgid "在安装后， ``janim examples`` 会出现该插件的示例"
+msgstr "After installation, examples from this plugin will appear in ``janim examples``."
+
+#: ../../source/index.rst:27
+msgid "使用方式"
+msgstr "Usage"
+
+#: ../../source/index.rst:30
+msgid "导入"
+msgstr "Import"
+
+#: ../../source/index.rst:37
+msgid "从 URL 加载 SVG"
+msgstr "Load SVG from a URL"
+
+#: ../../source/index.rst:43
+msgid "具体请参考 :class:`~.UrlSVGItem` 的文档"
+msgstr "See the documentation for :class:`~.UrlSVGItem` for details."
+
+#: ../../source/index.rst:46
+msgid "从 URL 加载图片"
+msgstr "Load image from a URL"
+
+#: ../../source/index.rst:52
+msgid "具体请参考 :class:`~.UrlImageItem` 的文档"
+msgstr "See the documentation for :class:`~.UrlImageItem` for details."
+
+#: ../../source/index.rst:55
+msgid "使用特定素材站的资源"
+msgstr "Use resources from specific asset sites"
+
+#: ../../source/index.rst:61
+msgid "具体请参考 :class:`~.Iconify` 的文档"
+msgstr "See the documentation for :class:`~.Iconify` for details."
+
+#: ../../source/index.rst:70
+msgid "内容索引"
+msgstr "Content Indices"
+
+#: ../../source/index.rst:72
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+#: ../../source/index.rst:73
+msgid ":ref:`modindex`"
+msgstr ":ref:`modindex`"
+
+#: ../../source/index.rst:74
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+

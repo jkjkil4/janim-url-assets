@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 1980, jkjkil4
+# This file is distributed under the same license as the janim-url-assets
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: janim-url-assets \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/janim_url_assets/api.rst:2
+msgid "api"
+msgstr "api"
+
+#: janim_url_assets.api:1 of
+msgid "该文件中提供了开箱即用的，线上素材站资源的封装"
+msgstr ""
+"This file provides ready-to-use wrappers for resources from online asset "
+"sites."
+
+#: janim_url_assets.api.Iconify:1 of
+msgid "基类：:py:class:`~janim_url_assets.items.UrlSVGItem`"
+msgstr "Base class: :py:class:`~janim_url_assets.items.UrlSVGItem`"
+
+#: janim_url_assets.api.Iconify:1 of
+msgid "使用方式："
+msgstr "Usage:"
+
+#: janim_url_assets.api.Iconify:3 of
+msgid ""
+"在 https://icon-sets.iconify.design/ 中查找你需要使用的图标，点进图标后，点击 ``Copy Name:`` "
+"那一行最右边的复制按钮，即可传入该类使用"
+msgstr ""
+"Find the icon you need at https://icon-sets.iconify.design/, open the "
+"icon, then click the copy button on the far right of the row labeled "
+"``Copy Name:``; you can then pass it to this class."
+
+#: janim_url_assets.api.Iconify:7 of
+msgid "iconify 上的图标大部分默认为黑色，你可以给该类传入类似 ``color=WHITE`` 的参数来修改"
+msgstr ""
+"Most icons on Iconify are black by default. You can pass parameters such "
+"as ``color=WHITE`` to this class to change that."
+
+#: ../../source/janim_url_assets/imports.rst:2
+msgid "imports"
+msgstr "imports"
+
+#: janim_url_assets.imports:1 of
+msgid ""
+"使用 ``from janim_url_assets.imports import *`` 即可导入 ``janim_url_assets`` "
+"主要的功能"
+msgstr ""
+"Use ``from janim_url_assets.imports import *`` to import the main "
+"functionality of ``janim_url_assets``."
+
+#: ../../source/janim_url_assets/items.rst:2
+msgid "items"
+msgstr "items"
+
+#: janim_url_assets.items:1 of
+msgid "该文件是该包的核心部分"
+msgstr "This file is the core of the package."
+
+#: janim_url_assets.items:3 of
+msgid "其中定义了若干 JAnim 原有的物件可传入 URL 路径的版本"
+msgstr ""
+"It defines versions of several built-in JAnim items that can accept URL "
+"paths."
+
+#: janim_url_assets.items.UrlImageItem:1 of
+msgid "基类：:py:class:`~janim.items.image_item.ImageItem`"
+msgstr "Base class: :py:class:`~janim.items.image_item.ImageItem`"
+
+#: janim_url_assets.items.UrlImageItem:1 of
+msgid "解析指定 URL 链接的图像素材"
+msgstr "Load image assets from a specified URL."
+
+#: janim_url_assets.items.UrlImageItem:3 janim_url_assets.items.UrlSVGItem:3 of
+msgid "比如："
+msgstr "For example:"
+
+#: ../../source/janim_url_assets/items.rst
+#: ../../source/janim_url_assets/utils.rst
+msgid "参数"
+msgstr "Parameters"
+
+#: janim_url_assets.items.UrlImageItem:9 janim_url_assets.items.UrlSVGItem:9 of
+msgid "URL 链接"
+msgstr "URL"
+
+#: janim_url_assets.items.UrlSVGItem:1 of
+msgid "基类：:py:class:`~janim.items.svg.svg_item.SVGItem`"
+msgstr "Base class: :py:class:`~janim.items.svg.svg_item.SVGItem`"
+
+#: janim_url_assets.items.UrlSVGItem:1 of
+msgid "解析指定 URL 链接的 SVG 素材"
+msgstr "Load SVG assets from a specified URL."
+
+#: ../../source/janim_url_assets/modules.rst:2
+msgid "janim_url_assets"
+msgstr "janim_url_assets"
+
+#: janim_url_assets.__init__:1 of
+msgid "JAnim plugin for loading remote assets directly from URLs"
+msgstr "JAnim plugin for loading remote assets directly from URLs"
+
+#: ../../source/janim_url_assets/plugin.rst:2
+msgid "plugin"
+msgstr "plugin"
+
+#: janim_url_assets.plugin:1 of
+msgid "该 module 用于向 JAnim 注册 janim-url-assets 插件信息"
+msgstr ""
+"This module is used to register janim-url-assets plugin information with "
+"JAnim."
+
+#: ../../source/janim_url_assets/utils.rst:2
+msgid "utils"
+msgstr "utils"
+
+#: janim_url_assets.utils:1 of
+msgid "该文件中包含了一些辅助函数"
+msgstr "This file contains some helper functions."
+
+#: janim_url_assets.utils:3 of
+msgid "其中最主要的是 :py:func:`download` 用于下载 URL 内容"
+msgstr ""
+"The most important of these is :py:func:`download`, which is used to "
+"download URL content."
+
+#: janim_url_assets.utils.download:1 of
+msgid "下载 ``url`` 的内容，返回暂存的文件路径"
+msgstr ""
+"Download the contents of ``url`` and return the path to the temporary "
+"cached file."
+
+#: janim_url_assets.utils.download:3 of
+msgid "曾下载过的 ``url`` 会被缓存"
+msgstr "Previously downloaded ``url`` values will be cached."
+
+#: janim_url_assets.utils.download:5 of
+msgid "要下载的 URL"
+msgstr "URL to download"
+
+#: janim_url_assets.utils.download:6 of
+msgid "暂存文件的附加后缀名，若要表示文件扩展名，需带上点，如 ``.svg``"
+msgstr ""
+"Additional suffix for the temporary file; if it is meant to represent a "
+"file extension, include the dot, e.g. ``.svg``."
