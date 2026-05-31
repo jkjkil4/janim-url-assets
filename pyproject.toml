@@ -26,6 +26,16 @@ dev = [
 [project.entry-points."janim.plugins"]
 janim-url-assets = "janim_url_assets.plugin"
 
+[tool.flit.sdist]
+exclude = [
+    "docs",
+    ".readthedocs.yaml",
+    "flake.nix",
+    "flake.lock",
+    "uv.lock",
+    ".gitignore"
+]
+
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
