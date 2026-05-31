@@ -20,8 +20,6 @@ Main provided items are:
 
 ## Installation
 
-(not published yet)
-
 ```bash
 pip install janim-url-assets
 ```

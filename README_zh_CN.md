@@ -19,8 +19,6 @@
 
 ## 安装
 
-（还未发布）
-
 ```bash
 pip install janim-url-assets
 ```
