@@ -1,5 +1,6 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 [![PyPI Latest Release](https://img.shields.io/pypi/v/janim-url-assets.svg?style=flat&logo=pypi)](https://pypi.org/project/janim-url-assets/)
+[![zh-CN Documentation Status](https://readthedocs.org/projects/janim-url-assets/badge/?version=latest)](https://janim-url-assets.readthedocs.io/zh-cn/latest/)
 
 <div align="center">
 
