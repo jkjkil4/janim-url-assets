@@ -20,6 +20,7 @@ dev = [
     "furo>=2025.12.19",
     "janim[gui]",
     "sphinx>=8.2.3",
+    "sphinx-intl>=2.3.2",
 ]
 
 [project.entry-points."janim.plugins"]
