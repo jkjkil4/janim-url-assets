@@ -31,10 +31,6 @@ msgstr ""
 "sites."
 
 #: janim_url_assets.api.Iconify:1 of
-msgid "基类：:py:class:`~janim_url_assets.items.UrlSVGItem`"
-msgstr "Base class: :py:class:`~janim_url_assets.items.UrlSVGItem`"
-
-#: janim_url_assets.api.Iconify:1 of
 msgid "使用方式："
 msgstr "Usage:"
 
@@ -48,6 +44,15 @@ msgstr ""
 "``Copy Name:``; you can then pass it to this class."
 
 #: janim_url_assets.api.Iconify:7 of
+msgid ""
+"你可能需要将图标名称中的冒号改为斜杠以正常使用，例如将 ``material-symbols:10k`` 改为 ``material-"
+"symbols/10k``"
+msgstr ""
+"You may need to replace the colon in the icon name with a slash for it to"
+" work properly, for example, changing ``material-symbols:10k`` to "
+"``material-symbols/10k``."
+
+#: janim_url_assets.api.Iconify:11 of
 msgid "iconify 上的图标大部分默认为黑色，你可以给该类传入类似 ``color=WHITE`` 的参数来修改"
 msgstr ""
 "Most icons on Iconify are black by default. You can pass parameters such "
@@ -79,13 +84,9 @@ msgstr ""
 "It defines versions of several built-in JAnim items that can accept URL "
 "paths."
 
-#: janim_url_assets.items.UrlImageItem:1 of
-msgid "基类：:py:class:`~janim.items.image_item.ImageItem`"
-msgstr "Base class: :py:class:`~janim.items.image_item.ImageItem`"
-
-#: janim_url_assets.items.UrlImageItem:1 of
-msgid "解析指定 URL 链接的图像素材"
-msgstr "Load image assets from a specified URL."
+#: janim_url_assets.items.UrlSVGItem:1 of
+msgid "解析指定 URL 链接的 SVG 素材"
+msgstr "Load SVG assets from a specified URL."
 
 #: janim_url_assets.items.UrlImageItem:3 janim_url_assets.items.UrlSVGItem:3 of
 msgid "比如："
@@ -100,13 +101,9 @@ msgstr "Parameters"
 msgid "URL 链接"
 msgstr "URL"
 
-#: janim_url_assets.items.UrlSVGItem:1 of
-msgid "基类：:py:class:`~janim.items.svg.svg_item.SVGItem`"
-msgstr "Base class: :py:class:`~janim.items.svg.svg_item.SVGItem`"
-
-#: janim_url_assets.items.UrlSVGItem:1 of
-msgid "解析指定 URL 链接的 SVG 素材"
-msgstr "Load SVG assets from a specified URL."
+#: janim_url_assets.items.UrlImageItem:1 of
+msgid "解析指定 URL 链接的图像素材"
+msgstr "Load image assets from a specified URL."
 
 #: ../../source/janim_url_assets/modules.rst:2
 msgid "janim_url_assets"
@@ -159,3 +156,13 @@ msgid "暂存文件的附加后缀名，若要表示文件扩展名，需带上�
 msgstr ""
 "Additional suffix for the temporary file; if it is meant to represent a "
 "file extension, include the dot, e.g. ``.svg``."
+
+#~ msgid "基类：:py:class:`~janim_url_assets.items.UrlSVGItem`"
+#~ msgstr "Base class: :py:class:`~janim_url_assets.items.UrlSVGItem`"
+
+#~ msgid "基类：:py:class:`~janim.items.image_item.ImageItem`"
+#~ msgstr "Base class: :py:class:`~janim.items.image_item.ImageItem`"
+
+#~ msgid "基类：:py:class:`~janim.items.svg.svg_item.SVGItem`"
+#~ msgstr "Base class: :py:class:`~janim.items.svg.svg_item.SVGItem`"
+

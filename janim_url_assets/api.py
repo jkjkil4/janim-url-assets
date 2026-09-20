@@ -11,6 +11,10 @@ class Iconify(UrlSVGItem):
 
     在 https://icon-sets.iconify.design/ 中查找你需要使用的图标，点进图标后，点击 ``Copy Name:`` 那一行最右边的复制按钮，即可传入该类使用
 
+    .. warning::
+
+        你可能需要将图标名称中的冒号改为斜杠以正常使用，例如将 ``material-symbols:10k`` 改为 ``material-symbols/10k``
+
     .. tip::
 
         iconify 上的图标大部分默认为黑色，你可以给该类传入类似 ``color=WHITE`` 的参数来修改

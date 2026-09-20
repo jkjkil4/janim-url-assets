@@ -8,11 +8,11 @@ from janim_url_assets.imports import *
 class IconifyExample(Timeline):
     def construct(self):
         adobe_icon_names = [
-            'skill-icons:audition',
-            'skill-icons:aftereffects',
-            'skill-icons:premiere',
-            'skill-icons:photoshop',
-            'skill-icons:xd',
+            'skill-icons/audition',
+            'skill-icons/aftereffects',
+            'skill-icons/premiere',
+            'skill-icons/photoshop',
+            'skill-icons/xd',
         ]
 
         adobe_icons = Group.from_iterable(
