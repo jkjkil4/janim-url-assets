@@ -48,7 +48,7 @@ UrlImageItem('https://raw.githubusercontent.com/jkjkil4/JAnim/main/assets/logo.p
 ### 使用特定素材站的资源
 
 ```python
-Iconify('skill-icons:aftereffects', width=1)
+Iconify('skill-icons/aftereffects', width=1)
 ```
 
 图标名称可在 <https://icon-sets.iconify.design/> 中检索。

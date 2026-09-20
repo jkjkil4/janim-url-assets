@@ -49,7 +49,7 @@ UrlImageItem('https://raw.githubusercontent.com/jkjkil4/JAnim/main/assets/logo.p
 ### Use resources from specific asset sites
 
 ```python
-Iconify('skill-icons:aftereffects', width=1)
+Iconify('skill-icons/aftereffects', width=1)
 ```
 
 You can search icon names at <https://icon-sets.iconify.design/>.
